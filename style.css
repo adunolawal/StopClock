@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(252, 174, 30);
+    color:white;
+}
+.allContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    font-size:3rem;
+    font-family: 'Segoe UI';
+}
+button{
+    background-color: rgb(252, 174, 30);
+    border:1px solid white;
+    font-size:1.3rem;
+    color: white;
+    padding: 20px 60px 20px 60px;
+    border-radius: 5px;
+    margin-top: 5rem;
+}
+button:hover{
+    border:2px solid black;
+    color:black;
+}
